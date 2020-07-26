@@ -58,6 +58,7 @@ typings/
 .rts2_cache_cjs/
 .rts2_cache_es/
 .rts2_cache_umd/
+.idea
 
 # Optional REPL history
 .node_repl_history
@@ -102,3 +103,8 @@ dist
 
 # TernJS port file
 .tern-port
+
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
